@@ -1,8 +1,5 @@
 package com.codersait;
 
-import org.springframework.stereotype.Component;
-
-@Component("database")
 public class MySqlCustomerDao implements ICustomerDao {
     private String connectionString;
 
